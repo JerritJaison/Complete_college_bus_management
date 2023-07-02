@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "775240232762",
+    "firebase_url": "https://bustrack-391215-default-rtdb.firebaseio.com",
+    "project_id": "bustrack-391215",
+    "storage_bucket": "bustrack-391215.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775240232762:android:3991a44afb1cf61b982a03",
+        "android_client_info": {
+          "package_name": "com.example.buscheck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775240232762-qnlj04n06lsu5573esg2cb9nfeqj8eca.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.buscheck",
+            "certificate_hash": "8994a119fa471e925e67329cef39d70ce32fe8f5"
+          }
+        },
+        {
+          "client_id": "775240232762-s0lrgtpsr6js9fm5tmpg1pb3q1nuburu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVGt3-hhM7L5FirWI_u5gKIJ1o4JXX2zM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "775240232762-s0lrgtpsr6js9fm5tmpg1pb3q1nuburu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775240232762:android:8443012fde95edb2982a03",
+        "android_client_info": {
+          "package_name": "com.example.bustracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775240232762-sltk0abmsr8fmotgv3cf223vrjrnm7cr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bustracker",
+            "certificate_hash": "8994a119fa471e925e67329cef39d70ce32fe8f5"
+          }
+        },
+        {
+          "client_id": "775240232762-s0lrgtpsr6js9fm5tmpg1pb3q1nuburu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVGt3-hhM7L5FirWI_u5gKIJ1o4JXX2zM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "775240232762-s0lrgtpsr6js9fm5tmpg1pb3q1nuburu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775240232762:android:96b07a0f6ffad12e982a03",
+        "android_client_info": {
+          "package_name": "com.example.collegebusmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775240232762-bkstbd2c61fn68if0gk72k2bekq7qglk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.collegebusmanagement",
+            "certificate_hash": "8994a119fa471e925e67329cef39d70ce32fe8f5"
+          }
+        },
+        {
+          "client_id": "775240232762-s0lrgtpsr6js9fm5tmpg1pb3q1nuburu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVGt3-hhM7L5FirWI_u5gKIJ1o4JXX2zM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "775240232762-s0lrgtpsr6js9fm5tmpg1pb3q1nuburu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

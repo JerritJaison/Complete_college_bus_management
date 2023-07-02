@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="25dp"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="2dp"
+        android:background="#8692f7">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fees Payment"
+            android:textSize="20dp"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView_indian_states"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/head"
+        android:layout_marginTop="30dp"
+        android:padding="6dp"
+        android:text="Bus NO*"
+        android:textColor="#555555"
+        android:focusable="true"
+        android:focusableInTouchMode="true"/>
+
+
+    <Spinner
+        android:id="@+id/spinner_indian_states"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/textView_indian_states"/>
+
+    <TextView
+        android:id="@+id/textView_indian_districts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner_indian_states"
+        android:layout_marginTop="30dp"
+        android:padding="6dp"
+        android:text="Bus Stop*"
+        android:textColor="#555555"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <Spinner
+        android:id="@+id/spinner_indian_districts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/textView_indian_districts"/>
+    <TextView
+        android:id="@+id/fee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner_indian_districts"
+        android:layout_marginTop="30dp"
+        android:padding="6dp"
+        android:text="Fees"
+        android:textColor="#555555"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+    <TextView
+        android:id="@+id/feebox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fee"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@drawable/rupee"></TextView>
+
+
+
+    <Button
+        android:id="@+id/button_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/feebox"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="Proceed"
+        android:textAlignment="center" />
+
+</RelativeLayout>

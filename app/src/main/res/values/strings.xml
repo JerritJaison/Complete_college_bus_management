@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">College bus management</string>
+
+    <string-array name="array_indian_states">
+        <item>Select Your Bus no</item>
+        <item>Bus no1</item>
+        <item>Bus no2</item>
+        <item>Bus no3</item>
+        <item>Bus no4</item>
+        <item>Bus no5</item>
+        <item>Bus no6</item>
+        <item>Bus no8</item>
+        <item>Bus no9</item>
+
+    </string-array>
+
+    <string-array name="array_default_districts">
+        <item>Select Your bus stop</item>
+    </string-array>
+
+    <string-array name="array_andhra_pradesh_districts">
+        <item>Select Your bus stop</item>
+        <item>Muvattupuzha</item>
+        <item>Thrikalathoor</item>
+        <item>Mannoor</item>
+        <item>Keezhillam</item>
+        <item>Pulluvazhy</item>
+        <item>Kuruppampady</item>
+        <item>Iringole</item>
+        <item>Onnam Mile</item>
+        <item>Okkal</item>
+
+    </string-array>
+
+    <string-array name="array_arunachal_pradesh_districts">
+        <item>Select Your bus stop</item>
+        <item>Kothamangalam</item>
+        <item>Nellikuzhi</item>
+        <item>Erumalapady</item>
+        <item>Odakkaly</item>
+        <item>Cherukunnam</item>
+        <item>Kurupumpady</item>
+        <item>Akanad</item>
+        <item>Kuruchilakode</item>
+        <item>Malayatoor</item>
+        <item>Kalady</item>
+    </string-array>
+
+    <string-array name="array_assam_districts">
+        <item>Select Your bus stop</item>
+        <item>Vazhikulangara</item>
+        <item>Cheriapally</item>
+        <item>Kochal</item>
+        <item>Koonammavu</item>
+        <item>Kongorpilly</item>
+        <item>Nerricode</item>
+        <item>Alangad</item>
+        <item>Kottapuram</item>
+        <item>Desom</item>
+        <item>Airport</item>
+    </string-array>
+
+    <string-array name="array_bihar_districts">
+        <item>Select Your bus stop</item>
+        <item>Aroor</item>
+        <item>Kumbalam</item>
+        <item>Kundanoor</item>
+        <item>Vytilla</item>
+        <item>Vysali</item>
+        <item>Chakkaraparambu</item>
+        <item>Vennala</item>
+        <item>Palarivattom</item>
+        <item>Appolo</item>
+    </string-array>
+
+    <string-array name="array_chhattisgarh_districts">
+        <item>Select Your bus stop</item>
+        <item>Fort Kochi</item>
+        <item>Koovapadam</item>
+        <item>Kappalandimukku</item>
+        <item>Chullikkal</item>
+        <item>Thopumpady</item>
+        <item>Thevara</item>
+        <item>Panambilly Nagar</item>
+        <item>Ellamkulam</item>
+        <item>Janatha</item>
+    </string-array>
+
+    <string-array name="array_goa_districts">
+        <item>Select Your bus stop</item>
+        <item>Kottapuram</item>
+        <item>Moothakunnam</item>
+        <item>Andipillikkavu</item>
+        <item>Chittatukara</item>
+        <item>Paravoor</item>
+        <item>Vedimara</item>
+        <item>Manjaly</item>
+        <item>Aduvassery</item>
+        <item>Companipady</item>
+    </string-array>
+
+    <string-array name="array_gujarat_districts">
+        <item>Select Your bus stop</item>
+        <item>Irinjalakuda</item>
+        <item>Kalletumkara</item>
+        <item>Aloor</item>
+        <item>Potta</item>
+        <item>Koratty</item>
+        <item>Chirangara</item>
+        <item>Pongam</item>
+        <item>Karukutty</item>
+        <item>Angamaly</item>
+    </string-array>
+
+    <string-array name="array_haryana_districts">
+        <item>Select Your bus stop</item>
+        <item>Thripunithara</item>
+        <item>Kaingachira</item>
+        <item>Mamala</item>
+        <item>Choondi</item>
+        <item>Kolencherry</item>
+        <item>Pattimattom</item>
+        <item>Arackapady</item>
+    </string-array>
+
+    <string-array name="array_himachal_pradesh_districts">
+        <item>Select Your bus stop</item>
+        <item>Kunnumpuram</item>
+        <item>Manjummal Palli</item>
+        <item>Eloor</item>
+        <item>Pathalam</item>
+        <item>Edayar</item>
+        <item>West Kadungallor</item>
+        <item>East Kadungallor</item>
+        <item>UC College</item>
+        <item>Kottai</item>
+    </string-array>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_location_info">LocationInfo</string>
+
+
+</resources>

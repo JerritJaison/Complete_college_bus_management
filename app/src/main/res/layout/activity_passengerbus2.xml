@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Passengerbus1Activity"
+    android:orientation = "vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="20dp"
+        android:background="#8692f7">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Passengers"
+            android:textSize="25dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="500dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp">
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NAME"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp">
+                </TextView>
+                <TextView
+                    android:id="@+id/dep"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DEPARTMENT"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="100dp">
+                </TextView>
+                <TextView
+                    android:id="@+id/sem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SEMESTER"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="200dp">
+                </TextView>
+
+
+
+
+
+
+                <TextView
+                    android:id="@+id/validity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="STATUS"
+                    android:layout_marginTop="10dp"
+                    android:layout_alignParentRight="true"></TextView>
+                <TextView
+                    android:id="@+id/list"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/name"
+                    android:text="\nAarav\n
+Aishwarya\n
+Akash\n
+Amara\n
+Anaya\n
+Arjun\n
+Aryan\n
+Bhavya\n
+Devika\n
+Dhruv\n
+Esha\n
+Gautam\n
+Ishaan\n
+Jiya\n
+Kavya\n\n"></TextView>
+                <TextView
+                    android:id="@+id/deps"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/dep"
+                    android:layout_toRightOf="@+id/list"
+                    android:text="\nME\nCSE\nECE\nEEE\nEEE\nCSE\nCSE\nCSE\nME\nCSE\nEEE\nECE\nCSE\nME\nCE"></TextView>
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sem"
+                    android:layout_toRightOf="@+id/deps"
+                    android:text="\n2\n6\n4\n6\nStaff\n2\n2\n2\n6\nstaff\n6\n2\n8\n6\n2"></TextView>
+
+
+
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

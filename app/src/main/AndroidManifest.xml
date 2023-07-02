@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CollegeBusManagement"
+        tools:targetApi="31">
+        <activity
+            android:name=".Passengerbus9Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Passengerbus8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Passengerbus7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Passengerbus6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Passengerbus5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Passengerbus4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Passengerbus3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Passengerbus2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Bus9listActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Bus8listActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Bus7listActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Bus6listActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Bus5listActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Bus4listActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Bus3listActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LocationInfo"
+            android:exported="false"
+            android:label="@string/title_activity_location_info"
+            android:theme="@style/Theme.CollegeBusManagement" />
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBpuwFwKowRqPfz0yRPlD1bYWQr_er9sRw" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".Bus2listActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QueryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Passengerbus1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".PassengerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FeesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Bus1listActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityHome"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
