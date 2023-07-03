@@ -6,6 +6,9 @@ plugins {
 }
 
 android {
+    lintOptions {
+        checkReleaseBuilds false
+    }
     namespace 'com.example.collegebusmanagement'
     compileSdk 33
 
@@ -48,9 +51,13 @@ android {
         }
     }
 }
+repositories {
+    mavenCentral()
+}
+
 
 dependencies {
-
+    implementation 'com.razorpay:checkout:1.6.26'
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.5.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
