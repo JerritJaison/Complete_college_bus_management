@@ -3,21 +3,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="25dp"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/whit">
 
     <RelativeLayout
         android:id="@+id/head"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:padding="2dp"
-        android:background="#8692f7">
+        android:background="@color/white">
         <TextView
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Fees Payment"
             android:textSize="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppinssemibold"
             android:layout_centerVertical="true"
             android:layout_centerInParent="true"/>
     </RelativeLayout>
@@ -30,7 +32,11 @@
         android:layout_marginTop="30dp"
         android:padding="6dp"
         android:text="Bus NO*"
-        android:textColor="#555555"
+        android:drawableLeft="@drawable/bu2"
+        android:drawablePadding="20dp"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:fontFamily="@font/poppinssemibold"
         android:focusable="true"
         android:focusableInTouchMode="true"/>
 
@@ -38,8 +44,9 @@
     <Spinner
         android:id="@+id/spinner_indian_states"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginTop="10dp"
+
         android:layout_below="@id/textView_indian_states"/>
 
     <TextView
@@ -50,15 +57,20 @@
         android:layout_marginTop="30dp"
         android:padding="6dp"
         android:text="Bus Stop*"
-        android:textColor="#555555"
+        android:drawableLeft="@drawable/stop1"
+        android:drawablePadding="35dp"
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppinssemibold"
         android:focusable="true"
         android:focusableInTouchMode="true" />
 
     <Spinner
         android:id="@+id/spinner_indian_districts"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginTop="10dp"
+
         android:layout_below="@id/textView_indian_districts"/>
     <TextView
         android:id="@+id/fee"
@@ -68,29 +80,51 @@
         android:layout_marginTop="30dp"
         android:padding="6dp"
         android:text="Fees"
-        android:textColor="#555555"
+        android:fontFamily="@font/poppinssemibold"
+        android:textColor="@color/black"
         android:focusable="true"
         android:focusableInTouchMode="true" />
     <TextView
         android:id="@+id/feebox"
         android:layout_width="match_parent"
+        android:fontFamily="@font/poppinssemibold"
         android:layout_height="wrap_content"
         android:layout_below="@id/fee"
-        android:layout_marginTop="30dp"
-        android:drawableLeft="@drawable/rupee"></TextView>
-
-
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/rupee"/>
+    <TextView
+        android:id="@+id/mess"
+        android:layout_width="match_parent"
+        android:text="Fee is Calculated Annually"
+        android:fontFamily="@font/poppinssemibold"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/feebox"
+        android:layout_marginTop="10dp"
+        />
 
     <Button
         android:id="@+id/button_submit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/feebox"
+        android:layout_below="@id/mess"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
         android:paddingLeft="40dp"
         android:paddingRight="40dp"
         android:text="Proceed"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/poppinssemibold"
         android:textAlignment="center" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:id="@+id/pstatus"
+        android:fontFamily="@font/poppinssemibold"
+        android:layout_below="@+id/button_submit" />
 
 </RelativeLayout>
+
+
+
