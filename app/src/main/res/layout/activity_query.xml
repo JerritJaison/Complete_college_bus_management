@@ -1,4 +1,5 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -12,35 +13,110 @@
         android:layout_alignParentLeft="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="23dp"
-        android:layout_marginLeft="100dp"
+        android:layout_marginLeft="145dp"
         android:textSize="25dp"
-        android:text="Enter The Message"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="QUERIES"
         android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView
+        android:id="@+id/text2"
+        android:layout_below="@id/textView2"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TO:"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppinssemibold" />
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/to_email"
         android:layout_width="match_parent"
-        android:layout_height="490dp"
-
-        android:layout_below="@+id/textView2"
-        android:background="#CCCCCC"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text2"
         android:ems="10"
+        android:fontFamily="@font/poppinssemibold"
         android:gravity="top"
-        android:inputType="text|textMultiLine" >
+        android:text="adishankara2023@outlook.com">
+
+
+    </EditText>
+    <TextView
+        android:id="@+id/subject1"
+        android:layout_below="@id/to_email"
+        android:layout_marginTop="30dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBJECT:"
+
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppinssemibold" />
+
+    <EditText
+        android:id="@+id/subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subject1"
+        android:ems="10"
+        android:fontFamily="@font/poppinssemibold"
+        android:hint="Subject"
+        android:gravity="top"
+         >
+
+
+    </EditText>
+    <TextView
+        android:id="@+id/message"
+        android:layout_below="@id/subject"
+        android:layout_marginTop="30dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MESSAGE:"
+
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppinssemibold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="246dp"
+        android:layout_height="213dp"
+        android:layout_below="@id/sent"
+        android:layout_marginTop="-40dp"
+        app:srcCompat="@drawable/supportt" />
+
+    <EditText
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/message"
+        android:ems="10"
+        android:lines="5"
+        android:fontFamily="@font/poppinssemibold"
+        android:hint="Type yor Message here...."
+        android:gravity="top"
+        android:inputType="text|textMultiLine"
+        >
 
 
     </EditText>
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/sent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/editText1"
-        android:layout_marginLeft="150dp"
-        android:layout_marginTop="20dp"
-        android:background="#0099FF"
-        android:text="Send"
-        android:textColor="#FFFFFF" />
+        android:layout_below="@id/content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="Sent"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/poppinssemibold"
+        android:textAlignment="center"  />
+
 
 </RelativeLayout>
